@@ -1,6 +1,6 @@
 # hidive-next-episode
 
-A browser extension for a better HiDive anime watching experience. Specifically, this integrates a next-episode button directly into the player overlay, nestled in the upper-right hand corner of the player. Efforts have been made to align the styling of this button with the current hidive UI.
+A browser extension for a better HiDive anime watching experience. This extension integrates a next-episode button directly into the player overlay, nestled in the upper-right hand corner of the player. Efforts have been made to align the styling of this button with the current HiDive UI.
 
 |                                           Default View (Sept 1 2022)                                           |                                             Extension - same view                                              |
 | :------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
