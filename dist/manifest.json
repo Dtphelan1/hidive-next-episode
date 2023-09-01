@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Hidive Next Episode",
+  "version": "1.0",
+
+  "description": "Adds a next-episode button to pages when watching anime on HiDive",
+  "homepage_url": "https://github.com/dtphelan1/hidive-next-episode-ext",
+  "icons": {
+    "48": "images/next-btn.svg",
+    "96": "images/next-btn.svg"
+  },
+  "web_accessible_resources": ["images/next-btn.svg"],
+
+  "permissions": ["activeTab", "contextMenus"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.hidive.com/stream/*"],
+      "css": ["button.css"],
+      "js": ["index.js"]
+    }
+  ]
+}

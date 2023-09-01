@@ -1,0 +1,21 @@
+{
+  "name": "hidive-next-episode",
+  "version": "1.0.0",
+  "description": "A browser extension for a better HiDive anime watching experience",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-ext run --source-dir ./dist --watch-file ./dist/index.js --start-url https://www.hidive.com/stream/nana/s01e016 --browser-console --verbose",
+    "build": "web-ext build --source-dir ./dist --artifacts-dir ./build"
+  },
+  "keywords": [
+    "anime",
+    "hidive",
+    "firefox",
+    "browser extensions"
+  ],
+  "author": "Dylan Phelan",
+  "license": "ISC",
+  "devDependencies": {
+    "web-ext": "^7.6.2"
+  }
+}
